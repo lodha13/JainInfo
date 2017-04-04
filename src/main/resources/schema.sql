@@ -1,4 +1,4 @@
-CREATE TABLE marasa
+CREATE TABLE IF NOT EXISTS marasa
 (
     id int(4) NOT NULL AUTO_INCREMENT,
     name varchar(100) NOT NULL,
